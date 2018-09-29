@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rules>
+    <Rule id="house">
+        <Question>Is your house/apartment big?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="garden">
+        <Question>Do you have a garden?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="laziness">
+        <Question>Are you lazy?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="money">
+        <Question>Do you have a lot of money to spend?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="law">
+        <Question>Are you afraid of problems with the police?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="steak">
+        <Question>How do you like your steak?</Question>
+        <Answer>
+            <Selection value="bloody">
+                <MultipleValue value="rare, medium-rare"/>
+            </Selection>
+            <Selection value="perfect">
+                <SingleValue value="medium"/>
+            </Selection>
+            <Selection value="disgusting">
+                <SingleValue value="well-done"/>
+            </Selection>
+
+        </Answer>
+    </Rule>
+    <Rule id="loneliness">
+        <Question>Do you live alone?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+</Rules>

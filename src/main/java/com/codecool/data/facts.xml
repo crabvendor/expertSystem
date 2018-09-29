@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Facts>
+    <Fact id="cat">
+        <Description value="Cat"/>
+        <Evals>
+            <Eval id="house">false</Eval>
+            <Eval id="garden">false</Eval>
+            <Eval id="laziness">yes</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="law">yes</Eval>
+            <Eval id="steak">perfect</Eval>
+            <Eval id="loneliness">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="dog">
+        <Description value="Dog"/>
+        <Evals>
+            <Eval id="house">true</Eval>
+            <Eval id="garden">true</Eval>
+            <Eval id="laziness">false</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="law">yes</Eval>
+            <Eval id="steak">perfect</Eval>
+            <Eval id="loneliness">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="hamster">
+        <Description value="Hamster"/>
+        <Evals>
+            <Eval id="house">false</Eval>
+            <Eval id="garden">false</Eval>
+            <Eval id="laziness">yes</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="law">yes</Eval>
+            <Eval id="steak">disgusting</Eval>
+            <Eval id="loneliness">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="lion">
+        <Description value="Lion"/>
+        <Evals>
+            <Eval id="house">false</Eval>
+            <Eval id="garden">true</Eval>
+            <Eval id="laziness">false</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="law">false</Eval>
+            <Eval id="steak">bloody</Eval>
+            <Eval id="loneliness">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="giraffe">
+        <Description value="Giraffe"/>
+        <Evals>
+            <Eval id="house">true</Eval>
+            <Eval id="garden">true</Eval>
+            <Eval id="laziness">false</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="law">false</Eval>
+            <Eval id="steak">disgusting</Eval>
+            <Eval id="loneliness">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="shark">
+        <Description value="Shark"/>
+        <Evals>
+            <Eval id="house">false</Eval>
+            <Eval id="garden">true</Eval>
+            <Eval id="laziness">false</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="law">false</Eval>
+            <Eval id="steak">bloody</Eval>
+            <Eval id="loneliness">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="elephant">
+        <Description value="Elephant"/>
+        <Evals>
+            <Eval id="house">true</Eval>
+            <Eval id="garden">true</Eval>
+            <Eval id="laziness">false</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="law">false</Eval>
+            <Eval id="steak">perfect</Eval>
+            <Eval id="loneliness">true</Eval>
+        </Evals>
+    </Fact>
+</Facts>
